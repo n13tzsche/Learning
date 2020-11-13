@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdint.h>
 
 int main()
 {
@@ -28,21 +27,14 @@ switch (ch1)
 
 	case '*': c=a*b;
 		  printf("Wynik mnożenia: %f\n", c); break;
-
-	case '/': c=a/b;
-		  printf("Wynik dzielenia: %f\n", c); break;
-
-
+		  
 	if (b==0)
-	{
 		printf("Error");
-	}
 	else
 	{
-		c=a/b;
+	case '/': c=a/b;
 		printf("Wynik dzielenia: %f\n", c); break;
 	}
-	break;
 }
 return 0;
 }
