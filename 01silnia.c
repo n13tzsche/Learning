@@ -2,13 +2,15 @@
 
 int main()
 {	
-    unsigned long n, i, k=1;
+    int n, i;
+    unsigned long k = 1;
 
-    scanf("%lu",&n);
+   	printf("Oblicz silnie z liczby : ");
+    	scanf("%d",&n);
 
     for (i=1; i<=n; i++){
     	k*=i;
     }
-    	printf("Silnia %lu : = %lu\n", i-1, k);
+    	printf("%d! = %lu\n", i-1, k);
     return 0;
 }
