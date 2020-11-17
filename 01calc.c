@@ -9,7 +9,6 @@ int main()
 
 	printf("Pierwsza liczba : \n");
 		scanf("%f", &a);
-
 	printf("Druga liczba : \n");
 		scanf("%f", &b);
 
@@ -21,20 +20,18 @@ switch (ch1)
 {
 	case '+': c=a+b;
 		  printf("Wynik dodawania: %f\n", c); break;
-
 	case '-': c=a-b;
 		  printf("Wynik odejmowania: %f\n", c); break;
-
 	case '*': c=a*b;
 		  printf("Wynik mnożenia: %f\n", c); break;
-		  
+
+	case '/':
+	c=a/b;
+
 	if (b==0)
 		printf("Error");
-	else
-	{
-	case '/': c=a/b;
-		printf("Wynik dzielenia: %f\n", c); break;
-	}
+else
+		printf("Wynik dzielenia: %f\n", c);
 }
 return 0;
 }
