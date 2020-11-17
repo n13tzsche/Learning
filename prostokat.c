@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdint.h>
 
-int main(void)
+int main()
 {
 	int x, y;
 
@@ -13,8 +12,7 @@ int main(void)
 
 	printf("Pole prostokata = %d\n", x * y);
 	printf("Obwod prostokata - %d\n", (2*x) + (2*y));
-		
-
+	
        return 0;
 }
 
